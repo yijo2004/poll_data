@@ -1,0 +1,172 @@
+================================================================================
+POLL STATISTICS REPORT
+================================================================================
+
+🐑 BIGGEST SHEEP (Vote with majority most often)
+--------------------------------------------------------------------------------
+1. MooseMeep: 11/17 majority votes (64.7%)
+2. zombielovertrio: 58/98 majority votes (59.2%)
+3. GriZ: 28/51 majority votes (54.9%)
+4. SirChuckOfTheChuckles: 46/84 majority votes (54.8%)
+5. Eon: 47/90 majority votes (52.2%)
+6. ❥❥dr̶kn̶d!!ᵇᵒᵒ: 34/67 majority votes (50.7%)
+7. GigaGrungo: 39/78 majority votes (50.0%)
+8. Daniel Z: 4/8 majority votes (50.0%)
+9. TheOriginalJ: 4/8 majority votes (50.0%)
+10. MadaMada: 35/71 majority votes (49.3%)
+11. Joseph: 34/70 majority votes (48.6%)
+12. my doot: 48/99 majority votes (48.5%)
+13. nadpnw: 36/79 majority votes (45.6%)
+14. Jo3lth3Mol3: 49/108 majority votes (45.4%)
+15. cornicopia: 33/74 majority votes (44.6%)
+16. Votre Mère: 32/75 majority votes (42.7%)
+17. evie!!: 19/45 majority votes (42.2%)
+18. jeff123pokemon: 34/88 majority votes (38.6%)
+19. Leo: 10/26 majority votes (38.5%)
+20. TNTR33D: 10/27 majority votes (37.0%)
+21. Social: 1/7 majority votes (14.3%)
+
+🔥 HOT TAKES (Vote with minority most often)
+--------------------------------------------------------------------------------
+1. Leo: 8/26 minority votes (30.8%)
+2. Votre Mère: 22/75 minority votes (29.3%)
+3. nadpnw: 21/79 minority votes (26.6%)
+4. Daniel Z: 2/8 minority votes (25.0%)
+5. jeff123pokemon: 21/88 minority votes (23.9%)
+6. MooseMeep: 4/17 minority votes (23.5%)
+7. Jo3lth3Mol3: 24/108 minority votes (22.2%)
+8. evie!!: 10/45 minority votes (22.2%)
+9. TNTR33D: 6/27 minority votes (22.2%)
+10. cornicopia: 16/74 minority votes (21.6%)
+11. my doot: 19/99 minority votes (19.2%)
+12. Eon: 17/90 minority votes (18.9%)
+13. GigaGrungo: 14/78 minority votes (17.9%)
+14. ❥❥dr̶kn̶d!!ᵇᵒᵒ: 11/67 minority votes (16.4%)
+15. Joseph: 11/70 minority votes (15.7%)
+16. MadaMada: 11/71 minority votes (15.5%)
+17. SirChuckOfTheChuckles: 13/84 minority votes (15.5%)
+18. Social: 1/7 minority votes (14.3%)
+19. TheOriginalJ: 1/8 minority votes (12.5%)
+20. zombielovertrio: 11/98 minority votes (11.2%)
+21. GriZ: 5/51 minority votes (9.8%)
+
+📊 MOST ACTIVE VOTER
+--------------------------------------------------------------------------------
+1. Jo3lth3Mol3: 108 total votes
+2. my doot: 99 total votes
+3. zombielovertrio: 98 total votes
+4. Eon: 90 total votes
+5. jeff123pokemon: 88 total votes
+6. SirChuckOfTheChuckles: 84 total votes
+7. nadpnw: 79 total votes
+8. GigaGrungo: 78 total votes
+9. Votre Mère: 75 total votes
+10. cornicopia: 74 total votes
+11. MadaMada: 71 total votes
+12. Joseph: 70 total votes
+13. ❥❥dr̶kn̶d!!ᵇᵒᵒ: 67 total votes
+14. GriZ: 51 total votes
+15. evie!!: 45 total votes
+16. TNTR33D: 27 total votes
+17. Leo: 26 total votes
+18. MooseMeep: 17 total votes
+19. Daniel Z: 8 total votes
+20. TheOriginalJ: 8 total votes
+21. Social: 7 total votes
+22. Pringles: 3 total votes
+23. Shun: 3 total votes
+24. thebrandons: 3 total votes
+25. therks: 2 total votes
+26. loaf: 2 total votes
+27. RaidentHorizon: 1 total votes
+28. Jeff12345Pokemon: 1 total votes
+
+🎯 MOST CONSISTENT (Fewest unique answers per vote)
+--------------------------------------------------------------------------------
+1. MooseMeep: 11 unique answers in 17 votes (ratio: 0.65)
+2. SirChuckOfTheChuckles: 57 unique answers in 84 votes (ratio: 0.68)
+3. evie!!: 31 unique answers in 45 votes (ratio: 0.69)
+4. zombielovertrio: 69 unique answers in 98 votes (ratio: 0.70)
+5. Jo3lth3Mol3: 77 unique answers in 108 votes (ratio: 0.71)
+6. Eon: 65 unique answers in 90 votes (ratio: 0.72)
+7. my doot: 72 unique answers in 99 votes (ratio: 0.73)
+8. Joseph: 51 unique answers in 70 votes (ratio: 0.73)
+9. ❥❥dr̶kn̶d!!ᵇᵒᵒ: 49 unique answers in 67 votes (ratio: 0.73)
+10. nadpnw: 58 unique answers in 79 votes (ratio: 0.73)
+11. GriZ: 38 unique answers in 51 votes (ratio: 0.75)
+12. MadaMada: 53 unique answers in 71 votes (ratio: 0.75)
+13. jeff123pokemon: 66 unique answers in 88 votes (ratio: 0.75)
+14. Votre Mère: 58 unique answers in 75 votes (ratio: 0.77)
+15. GigaGrungo: 61 unique answers in 78 votes (ratio: 0.78)
+16. cornicopia: 58 unique answers in 74 votes (ratio: 0.78)
+17. Leo: 21 unique answers in 26 votes (ratio: 0.81)
+18. Daniel Z: 7 unique answers in 8 votes (ratio: 0.88)
+19. TheOriginalJ: 7 unique answers in 8 votes (ratio: 0.88)
+20. TNTR33D: 27 unique answers in 27 votes (ratio: 1.00)
+21. Social: 7 unique answers in 7 votes (ratio: 1.00)
+
+🐺 LONE WOLF (Vote for least popular options)
+--------------------------------------------------------------------------------
+1. TNTR33D: 5/27 votes for unpopular options (18.5%)
+2. Votre Mère: 13/75 votes for unpopular options (17.3%)
+3. SirChuckOfTheChuckles: 13/84 votes for unpopular options (15.5%)
+4. nadpnw: 12/79 votes for unpopular options (15.2%)
+5. TheOriginalJ: 1/8 votes for unpopular options (12.5%)
+6. Eon: 9/90 votes for unpopular options (10.0%)
+7. cornicopia: 7/74 votes for unpopular options (9.5%)
+8. zombielovertrio: 9/98 votes for unpopular options (9.2%)
+9. evie!!: 4/45 votes for unpopular options (8.9%)
+10. my doot: 8/99 votes for unpopular options (8.1%)
+11. jeff123pokemon: 7/88 votes for unpopular options (8.0%)
+12. Leo: 2/26 votes for unpopular options (7.7%)
+13. ❥❥dr̶kn̶d!!ᵇᵒᵒ: 5/67 votes for unpopular options (7.5%)
+14. Jo3lth3Mol3: 8/108 votes for unpopular options (7.4%)
+15. MadaMada: 5/71 votes for unpopular options (7.0%)
+16. Joseph: 4/70 votes for unpopular options (5.7%)
+17. GigaGrungo: 4/78 votes for unpopular options (5.1%)
+18. GriZ: 1/51 votes for unpopular options (2.0%)
+19. Social: 0/7 votes for unpopular options (0.0%)
+20. Daniel Z: 0/8 votes for unpopular options (0.0%)
+21. MooseMeep: 0/17 votes for unpopular options (0.0%)
+
+🚂 BANDWAGONER (Highest majority vote percentage)
+--------------------------------------------------------------------------------
+1. MooseMeep: 64.7% majority votes (11/17)
+2. zombielovertrio: 59.2% majority votes (58/98)
+3. GriZ: 54.9% majority votes (28/51)
+4. SirChuckOfTheChuckles: 54.8% majority votes (46/84)
+5. Eon: 52.2% majority votes (47/90)
+6. ❥❥dr̶kn̶d!!ᵇᵒᵒ: 50.7% majority votes (34/67)
+7. GigaGrungo: 50.0% majority votes (39/78)
+8. MadaMada: 49.3% majority votes (35/71)
+9. Joseph: 48.6% majority votes (34/70)
+10. my doot: 48.5% majority votes (48/99)
+11. nadpnw: 45.6% majority votes (36/79)
+12. Jo3lth3Mol3: 45.4% majority votes (49/108)
+13. cornicopia: 44.6% majority votes (33/74)
+14. Votre Mère: 42.7% majority votes (32/75)
+15. evie!!: 42.2% majority votes (19/45)
+16. jeff123pokemon: 38.6% majority votes (34/88)
+17. Leo: 38.5% majority votes (10/26)
+18. TNTR33D: 37.0% majority votes (10/27)
+
+⚡ CONTRARIAN (Highest minority vote percentage)
+--------------------------------------------------------------------------------
+1. Leo: 30.8% minority votes (8/26)
+2. Votre Mère: 29.3% minority votes (22/75)
+3. nadpnw: 26.6% minority votes (21/79)
+4. jeff123pokemon: 23.9% minority votes (21/88)
+5. MooseMeep: 23.5% minority votes (4/17)
+6. Jo3lth3Mol3: 22.2% minority votes (24/108)
+7. evie!!: 22.2% minority votes (10/45)
+8. TNTR33D: 22.2% minority votes (6/27)
+9. cornicopia: 21.6% minority votes (16/74)
+10. my doot: 19.2% minority votes (19/99)
+11. Eon: 18.9% minority votes (17/90)
+12. GigaGrungo: 17.9% minority votes (14/78)
+13. ❥❥dr̶kn̶d!!ᵇᵒᵒ: 16.4% minority votes (11/67)
+14. Joseph: 15.7% minority votes (11/70)
+15. MadaMada: 15.5% minority votes (11/71)
+16. SirChuckOfTheChuckles: 15.5% minority votes (13/84)
+17. zombielovertrio: 11.2% minority votes (11/98)
+18. GriZ: 9.8% minority votes (5/51)

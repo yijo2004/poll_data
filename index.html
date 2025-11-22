@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Statistics Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Poll Statistics Dashboard</h1>
+            <p>Voting patterns and statistics from Discord polls</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-button active" onclick="showTab('overview')">Overview</button>
+            <button class="tab-button" onclick="showTab('individual')">Individual Stats</button>
+            <button class="tab-button" onclick="showTab('polls')">All Polls</button>
+        </nav>
+
+        <div id="overview" class="tab-content active">
+            <div class="loading" id="overview-loading">Loading statistics...</div>
+            <div id="overview-content" style="display: none;">
+                <div class="stats-grid" id="stats-grid"></div>
+            </div>
+        </div>
+
+        <div id="individual" class="tab-content">
+            <div class="user-selector">
+                <label for="user-select">Select a user:</label>
+                <select id="user-select" onchange="loadUserStats()">
+                    <option value="">-- Choose a user --</option>
+                </select>
+            </div>
+            <div class="loading" id="individual-loading" style="display: none;">Loading user statistics...</div>
+            <div id="individual-content" style="display: none;"></div>
+        </div>
+
+        <div id="polls" class="tab-content">
+            <div class="search-box">
+                <input type="text" id="poll-search" placeholder="Search polls..." onkeyup="filterPolls()">
+            </div>
+            <div class="loading" id="polls-loading">Loading polls...</div>
+            <div id="polls-content" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
