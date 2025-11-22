@@ -17,6 +17,10 @@ function showTab(tabName) {
         loadOverview();
     } else if (tabName === 'polls' && pollsData.length === 0) {
         loadPolls();
+    } else if (tabName === 'overview' && statsData && pollsData.length === 0) {
+        loadPolls().then(() => {
+            displayOverview();
+        });
     }
 }
 
@@ -73,6 +77,73 @@ function parseStatsText(text) {
     }
 }
 
+function calculateInterestingPolls() {
+    const pollStats = [];
+    
+    for (let pollIndex = 0; pollIndex < pollsData.length; pollIndex++) {
+        const poll = pollsData[pollIndex];
+        if (!poll.answers || poll.answers.length === 0) continue;
+        
+        const answerVoteCounts = [];
+        let totalVotes = 0;
+        
+        for (let answer of poll.answers) {
+            const voteCount = answer.voters ? answer.voters.length : 0;
+            answerVoteCounts.push(voteCount);
+            totalVotes += voteCount;
+        }
+        
+        if (totalVotes === 0) continue;
+        
+        const maxVotes = Math.max(...answerVoteCounts);
+        const minVotes = Math.min(...answerVoteCounts);
+        const maxPercentage = (maxVotes / totalVotes) * 100;
+        
+        let closestScore = 1;
+        let variance = 0;
+        let splitScore = 0;
+        
+        if (answerVoteCounts.length > 1) {
+            const avgVotes = totalVotes / answerVoteCounts.length;
+            variance = answerVoteCounts.reduce((sum, count) => {
+                return sum + Math.pow(count - avgVotes, 2);
+            }, 0) / answerVoteCounts.length;
+            closestScore = 1 / (1 + variance);
+            
+            const sortedVotes = [...answerVoteCounts].sort((a, b) => b - a);
+            if (sortedVotes.length >= 2) {
+                const topTwoDiff = Math.abs(sortedVotes[0] - sortedVotes[1]);
+                splitScore = 1 / (1 + topTwoDiff);
+            }
+        }
+        
+        pollStats.push({
+            pollIndex: pollIndex,
+            question: poll.question,
+            totalVotes: totalVotes,
+            maxVotes: maxVotes,
+            minVotes: minVotes,
+            maxPercentage: maxPercentage,
+            answerCount: answerVoteCounts.length,
+            closestScore: closestScore,
+            variance: variance,
+            splitScore: splitScore,
+            voteDistribution: answerVoteCounts,
+            answers: poll.answers
+        });
+    }
+    
+    return {
+        leastVoted: pollStats.sort((a, b) => a.totalVotes - b.totalVotes).slice(0, 10),
+        mostVoted: pollStats.sort((a, b) => b.totalVotes - a.totalVotes).slice(0, 10),
+        closest: pollStats.sort((a, b) => b.closestScore - a.closestScore).slice(0, 10),
+        mostControversial: pollStats.sort((a, b) => b.variance - a.variance).slice(0, 10),
+        mostUnanimous: pollStats.sort((a, b) => b.maxPercentage - a.maxPercentage).slice(0, 10),
+        mostOptions: pollStats.sort((a, b) => b.answerCount - a.answerCount).slice(0, 10),
+        mostSplit: pollStats.filter(p => p.answerCount >= 2).sort((a, b) => b.splitScore - a.splitScore).slice(0, 10)
+    };
+}
+
 function displayOverview() {
     const grid = document.getElementById('stats-grid');
     grid.innerHTML = '';
@@ -112,8 +183,142 @@ function displayOverview() {
         grid.appendChild(card);
     });
     
+    displayInterestingPolls();
+    
     document.getElementById('overview-loading').style.display = 'none';
     document.getElementById('overview-content').style.display = 'block';
+}
+
+function displayInterestingPolls() {
+    if (pollsData.length === 0) return;
+    
+    const pollsGrid = document.getElementById('polls-grid');
+    pollsGrid.innerHTML = '';
+    
+    const interestingPolls = calculateInterestingPolls();
+    
+    const pollCategories = [
+        { key: 'mostVoted', title: 'Most Voted Polls', icon: '🔥', data: interestingPolls.mostVoted },
+        { key: 'leastVoted', title: 'Least Voted Polls', icon: '❄️', data: interestingPolls.leastVoted },
+        { key: 'closest', title: 'Closest Polls', icon: '⚖️', data: interestingPolls.closest },
+        { key: 'mostControversial', title: 'Most Controversial', icon: '💥', data: interestingPolls.mostControversial },
+        { key: 'mostUnanimous', title: 'Most Unanimous', icon: '🤝', data: interestingPolls.mostUnanimous },
+        { key: 'mostOptions', title: 'Most Options', icon: '📋', data: interestingPolls.mostOptions },
+        { key: 'mostSplit', title: 'Most Split', icon: '⚔️', data: interestingPolls.mostSplit }
+    ];
+    
+    pollCategories.forEach(cat => {
+        const card = document.createElement('div');
+        card.className = 'stat-card poll-stat-card';
+        card.innerHTML = `<h3><span class="icon">${cat.icon}</span> ${cat.title}</h3>`;
+        
+        if (cat.data.length === 0) {
+            card.innerHTML += '<div class="no-data">No data available</div>';
+        } else {
+            cat.data.forEach((poll, index) => {
+                const div = document.createElement('div');
+                div.className = 'stat-item poll-item';
+                div.style.cursor = 'pointer';
+                const question = poll.question.length > 30 ? poll.question.substring(0, 27) + '...' : poll.question;
+                const voteInfo = `${poll.totalVotes} votes`;
+                const optionsInfo = `${poll.answerCount} options`;
+                
+                let metaInfo = `${voteInfo} • ${optionsInfo}`;
+                if (cat.key === 'mostUnanimous') {
+                    metaInfo = `${voteInfo} • ${poll.maxPercentage.toFixed(1)}% top answer`;
+                } else if (cat.key === 'mostSplit') {
+                    const sortedVotes = [...poll.voteDistribution].sort((a, b) => b - a);
+                    if (sortedVotes.length >= 2) {
+                        const diff = Math.abs(sortedVotes[0] - sortedVotes[1]);
+                        metaInfo = `${voteInfo} • ${diff} vote difference`;
+                    }
+                } else if (cat.key === 'mostControversial') {
+                    metaInfo = `${voteInfo} • High variance`;
+                }
+                
+                div.innerHTML = `
+                    <span class="rank">${index + 1}</span>
+                    <div class="poll-item-content">
+                        <span class="name" title="${poll.question}">${question}</span>
+                        <span class="poll-item-meta">${metaInfo}</span>
+                    </div>
+                `;
+                
+                div.onclick = () => showPollDetails(poll.pollIndex);
+                card.appendChild(div);
+            });
+        }
+        
+        pollsGrid.appendChild(card);
+    });
+}
+
+function showPollDetails(pollIndex) {
+    const poll = pollsData[pollIndex];
+    if (!poll) return;
+    
+    const modal = document.getElementById('poll-details-modal');
+    if (!modal) {
+        createPollDetailsModal();
+    }
+    
+    const modalTitle = document.getElementById('poll-details-title');
+    const modalBody = document.getElementById('poll-details-body');
+    
+    modalTitle.textContent = poll.question;
+    
+    let html = '';
+    const totalVotes = poll.answers.reduce((sum, answer) => sum + (answer.voters ? answer.voters.length : 0), 0);
+    html += `<div class="poll-details-summary">Total Votes: ${totalVotes} | Options: ${poll.answers.length}</div>`;
+    
+    poll.answers.forEach((answer, index) => {
+        const voteCount = answer.voters ? answer.voters.length : 0;
+        const percentage = totalVotes > 0 ? ((voteCount / totalVotes) * 100).toFixed(1) : 0;
+        
+        html += `<div class="poll-details-answer">`;
+        html += `<div class="poll-details-answer-header">`;
+        html += `<span class="poll-details-answer-text">${answer.answer}</span>`;
+        html += `<span class="poll-details-answer-stats">${voteCount} votes (${percentage}%)</span>`;
+        html += `</div>`;
+        
+        if (answer.voters && answer.voters.length > 0) {
+            html += `<div class="poll-details-voters">`;
+            answer.voters.forEach(voter => {
+                html += `<div class="poll-details-voter">${voter.display_name || voter.username || 'Unknown'}</div>`;
+            });
+            html += `</div>`;
+        }
+        
+        html += `</div>`;
+    });
+    
+    modalBody.innerHTML = html;
+    document.getElementById('poll-details-modal').style.display = 'flex';
+}
+
+function createPollDetailsModal() {
+    const modal = document.createElement('div');
+    modal.id = 'poll-details-modal';
+    modal.className = 'modal';
+    modal.innerHTML = `
+        <div class="modal-content poll-details-content">
+            <div class="modal-header">
+                <h3 id="poll-details-title"></h3>
+                <button class="modal-close" onclick="closePollDetailsModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="poll-details-body"></div>
+        </div>
+    `;
+    modal.onclick = (e) => {
+        if (e.target === modal) {
+            closePollDetailsModal();
+        }
+    };
+    document.body.appendChild(modal);
+}
+
+function closePollDetailsModal() {
+    document.getElementById('poll-details-modal').style.display = 'none';
 }
 
 async function loadPolls() {
@@ -122,9 +327,11 @@ async function loadPolls() {
         pollsData = await response.json();
         displayPolls();
         populateUserSelect();
+        return pollsData;
     } catch (error) {
         document.getElementById('polls-loading').textContent = 'Error loading polls';
         console.error(error);
+        return [];
     }
 }
 
@@ -566,6 +773,9 @@ function displayUserStats(userInfo, stats, allUserStats) {
 
 window.addEventListener('DOMContentLoaded', () => {
     loadOverview();
-    loadPolls();
+    loadPolls().then(() => {
+        if (statsData) {
+            displayOverview();
+        }
+    });
 });
-
