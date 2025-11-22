@@ -78,26 +78,34 @@ function displayOverview() {
     grid.innerHTML = '';
     
     const categories = [
-        { key: 'biggestSheep', title: '🐑 Biggest Sheep', icon: '🐑' },
-        { key: 'hotTakes', title: '🔥 Hot Takes', icon: '🔥' },
-        { key: 'mostActive', title: '📊 Most Active', icon: '📊' },
-        { key: 'loneWolf', title: '🐺 Lone Wolf', icon: '🐺' },
-        { key: 'bandwagoner', title: '🚂 Bandwagoner', icon: '🚂' },
-        { key: 'contrarian', title: '⚡ Contrarian', icon: '⚡' }
+        { key: 'biggestSheep', title: 'Biggest Sheep', icon: '🐑' },
+        { key: 'hotTakes', title: 'Hot Takes', icon: '🔥' },
+        { key: 'mostActive', title: 'Most Active', icon: '📊' },
+        { key: 'loneWolf', title: 'Lone Wolf', icon: '🐺' },
+        { key: 'bandwagoner', title: 'Bandwagoner', icon: '🚂' },
+        { key: 'contrarian', title: 'Contrarian', icon: '⚡' }
     ];
     
     categories.forEach(cat => {
         const card = document.createElement('div');
         card.className = 'stat-card';
-        card.innerHTML = `<h3>${cat.title}</h3>`;
+        card.innerHTML = `<h3><span class="icon">${cat.icon}</span> ${cat.title}</h3>`;
         
-        const items = statsData[cat.key].slice(0, 10);
-        items.forEach(item => {
-            const div = document.createElement('div');
-            div.className = 'stat-item';
-            div.innerHTML = `<span class="name">${item.name}</span><span class="value">${item.value}</span>`;
-            card.appendChild(div);
-        });
+        const items = statsData[cat.key];
+        if (items.length === 0) {
+            card.innerHTML += '<div class="no-data">No data available</div>';
+        } else {
+            items.forEach((item, index) => {
+                const div = document.createElement('div');
+                div.className = 'stat-item';
+                div.innerHTML = `
+                    <span class="rank">${index + 1}</span>
+                    <span class="name">${item.name}</span>
+                    <span class="value">${item.value}</span>
+                `;
+                card.appendChild(div);
+            });
+        }
         
         grid.appendChild(card);
     });
