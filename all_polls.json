@@ -1,5 +1,972 @@
 [
   {
+    "question": "What's your favorite?",
+    "answers": [
+      {
+        "answer": "Big Robots",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "189483157894987776",
+            "username": "sirchuckofthechuckles",
+            "display_name": "SirChuckOfTheChuckles"
+          },
+          {
+            "id": "224562633825583105",
+            "username": "mydoot",
+            "display_name": "my doot"
+          },
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          },
+          {
+            "id": "409149245711581204",
+            "username": "drkndboo",
+            "display_name": "❥❥dr̶kn̶d!!ᵇᵒᵒ"
+          },
+          {
+            "id": "451932020667318274",
+            "username": "griz_003",
+            "display_name": "GriZ"
+          },
+          {
+            "id": "460854605752958986",
+            "username": "cornicopia",
+            "display_name": "cornicopia"
+          },
+          {
+            "id": "497858508969082911",
+            "username": "theicecreamblacksmith",
+            "display_name": "Votre Mère"
+          }
+        ]
+      },
+      {
+        "answer": "Dragons",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "321290301169991681",
+            "username": "eonnis",
+            "display_name": "Eon"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "326471666630656002",
+            "username": "microscopicman",
+            "display_name": "Joseph"
+          },
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          },
+          {
+            "id": "424678116514988053",
+            "username": "gigagrungo",
+            "display_name": "GigaGrungo"
+          },
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          },
+          {
+            "id": "512091726056259584",
+            "username": "mushroombark",
+            "display_name": "evie!!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which do you like the design of the best?",
+    "answers": [
+      {
+        "answer": "Pichu",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "189483157894987776",
+            "username": "sirchuckofthechuckles",
+            "display_name": "SirChuckOfTheChuckles"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          }
+        ]
+      },
+      {
+        "answer": "Pikachu",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "224562633825583105",
+            "username": "mydoot",
+            "display_name": "my doot"
+          },
+          {
+            "id": "321290301169991681",
+            "username": "eonnis",
+            "display_name": "Eon"
+          },
+          {
+            "id": "326471666630656002",
+            "username": "microscopicman",
+            "display_name": "Joseph"
+          },
+          {
+            "id": "409149245711581204",
+            "username": "drkndboo",
+            "display_name": "❥❥dr̶kn̶d!!ᵇᵒᵒ"
+          },
+          {
+            "id": "424678116514988053",
+            "username": "gigagrungo",
+            "display_name": "GigaGrungo"
+          },
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          },
+          {
+            "id": "451932020667318274",
+            "username": "griz_003",
+            "display_name": "GriZ"
+          },
+          {
+            "id": "497858508969082911",
+            "username": "theicecreamblacksmith",
+            "display_name": "Votre Mère"
+          },
+          {
+            "id": "512091726056259584",
+            "username": "mushroombark",
+            "display_name": "evie!!"
+          }
+        ]
+      },
+      {
+        "answer": "Raichu",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          },
+          {
+            "id": "460854605752958986",
+            "username": "cornicopia",
+            "display_name": "cornicopia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Is Rudolph a system reindeer?",
+    "answers": [
+      {
+        "answer": "Yes",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "321290301169991681",
+            "username": "eonnis",
+            "display_name": "Eon"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "326471666630656002",
+            "username": "microscopicman",
+            "display_name": "Joseph"
+          },
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          },
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          },
+          {
+            "id": "460854605752958986",
+            "username": "cornicopia",
+            "display_name": "cornicopia"
+          },
+          {
+            "id": "497858508969082911",
+            "username": "theicecreamblacksmith",
+            "display_name": "Votre Mère"
+          },
+          {
+            "id": "962502692129898548",
+            "username": "strawberrylover17",
+            "display_name": "strawberrylover17"
+          }
+        ]
+      },
+      {
+        "answer": "No",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Is a doctor on Frieza’s ship evil?",
+    "answers": [
+      {
+        "answer": "Yes",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "326471666630656002",
+            "username": "microscopicman",
+            "display_name": "Joseph"
+          },
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          },
+          {
+            "id": "460854605752958986",
+            "username": "cornicopia",
+            "display_name": "cornicopia"
+          }
+        ]
+      },
+      {
+        "answer": "No",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "321290301169991681",
+            "username": "eonnis",
+            "display_name": "Eon"
+          },
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          },
+          {
+            "id": "424678116514988053",
+            "username": "gigagrungo",
+            "display_name": "GigaGrungo"
+          },
+          {
+            "id": "497858508969082911",
+            "username": "theicecreamblacksmith",
+            "display_name": "Votre Mère"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which?",
+    "answers": [
+      {
+        "answer": "Cheez-Itz",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "224562633825583105",
+            "username": "mydoot",
+            "display_name": "my doot"
+          },
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          },
+          {
+            "id": "321290301169991681",
+            "username": "eonnis",
+            "display_name": "Eon"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "409149245711581204",
+            "username": "drkndboo",
+            "display_name": "❥❥dr̶kn̶d!!ᵇᵒᵒ"
+          },
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          },
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          },
+          {
+            "id": "460854605752958986",
+            "username": "cornicopia",
+            "display_name": "cornicopia"
+          },
+          {
+            "id": "497858508969082911",
+            "username": "theicecreamblacksmith",
+            "display_name": "Votre Mère"
+          }
+        ]
+      },
+      {
+        "answer": "Goldfish",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "189483157894987776",
+            "username": "sirchuckofthechuckles",
+            "display_name": "SirChuckOfTheChuckles"
+          },
+          {
+            "id": "257695355695529984",
+            "username": "thebrandons",
+            "display_name": "thebrandons"
+          },
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "311305936742645763",
+            "username": "paledusk",
+            "display_name": "Social"
+          },
+          {
+            "id": "424678116514988053",
+            "username": "gigagrungo",
+            "display_name": "GigaGrungo"
+          },
+          {
+            "id": "512091726056259584",
+            "username": "mushroombark",
+            "display_name": "evie!!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Would you actually care if something you like was entirely AI generated or primarily AI generated?",
+    "answers": [
+      {
+        "answer": "Yes",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "224562633825583105",
+            "username": "mydoot",
+            "display_name": "my doot"
+          },
+          {
+            "id": "257695355695529984",
+            "username": "thebrandons",
+            "display_name": "thebrandons"
+          },
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          },
+          {
+            "id": "311305936742645763",
+            "username": "paledusk",
+            "display_name": "Social"
+          },
+          {
+            "id": "321290301169991681",
+            "username": "eonnis",
+            "display_name": "Eon"
+          },
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          },
+          {
+            "id": "460854605752958986",
+            "username": "cornicopia",
+            "display_name": "cornicopia"
+          },
+          {
+            "id": "497858508969082911",
+            "username": "theicecreamblacksmith",
+            "display_name": "Votre Mère"
+          },
+          {
+            "id": "512091726056259584",
+            "username": "mushroombark",
+            "display_name": "evie!!"
+          }
+        ]
+      },
+      {
+        "answer": "No",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "189483157894987776",
+            "username": "sirchuckofthechuckles",
+            "display_name": "SirChuckOfTheChuckles"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          },
+          {
+            "id": "424678116514988053",
+            "username": "gigagrungo",
+            "display_name": "GigaGrungo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Favorite Type of Soda?",
+    "answers": [
+      {
+        "answer": "Cola",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "224562633825583105",
+            "username": "mydoot",
+            "display_name": "my doot"
+          },
+          {
+            "id": "326471666630656002",
+            "username": "microscopicman",
+            "display_name": "Joseph"
+          },
+          {
+            "id": "409149245711581204",
+            "username": "drkndboo",
+            "display_name": "❥❥dr̶kn̶d!!ᵇᵒᵒ"
+          },
+          {
+            "id": "497858508969082911",
+            "username": "theicecreamblacksmith",
+            "display_name": "Votre Mère"
+          }
+        ]
+      },
+      {
+        "answer": "Lemon-Lime",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          },
+          {
+            "id": "460854605752958986",
+            "username": "cornicopia",
+            "display_name": "cornicopia"
+          }
+        ]
+      },
+      {
+        "answer": "Orange",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          }
+        ]
+      },
+      {
+        "answer": "Gingerale",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "512091726056259584",
+            "username": "mushroombark",
+            "display_name": "evie!!"
+          }
+        ]
+      },
+      {
+        "answer": "Root Beer",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "311305936742645763",
+            "username": "paledusk",
+            "display_name": "Social"
+          },
+          {
+            "id": "424678116514988053",
+            "username": "gigagrungo",
+            "display_name": "GigaGrungo"
+          },
+          {
+            "id": "451932020667318274",
+            "username": "griz_003",
+            "display_name": "GriZ"
+          }
+        ]
+      },
+      {
+        "answer": "Cream",
+        "vote_count": 0,
+        "voters": []
+      },
+      {
+        "answer": "Cherry",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "189483157894987776",
+            "username": "sirchuckofthechuckles",
+            "display_name": "SirChuckOfTheChuckles"
+          },
+          {
+            "id": "321290301169991681",
+            "username": "eonnis",
+            "display_name": "Eon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Favorite perspective/type of narrator?",
+    "answers": [
+      {
+        "answer": "1st person",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          },
+          {
+            "id": "321290301169991681",
+            "username": "eonnis",
+            "display_name": "Eon"
+          },
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          }
+        ]
+      },
+      {
+        "answer": "3rd person",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "224562633825583105",
+            "username": "mydoot",
+            "display_name": "my doot"
+          },
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "270638440675147777",
+            "username": "tntr33d",
+            "display_name": "TNTR33D"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          },
+          {
+            "id": "512091726056259584",
+            "username": "mushroombark",
+            "display_name": "evie!!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Would you go to your girlfriend’s masters degree graduation ceremony or your sister’s wedding if they were on the same day?",
+    "answers": [
+      {
+        "answer": "Graduation Ceremony",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "451932020667318274",
+            "username": "griz_003",
+            "display_name": "GriZ"
+          },
+          {
+            "id": "512091726056259584",
+            "username": "mushroombark",
+            "display_name": "evie!!"
+          }
+        ]
+      },
+      {
+        "answer": "Wedding",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "224562633825583105",
+            "username": "mydoot",
+            "display_name": "my doot"
+          },
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          },
+          {
+            "id": "311305936742645763",
+            "username": "paledusk",
+            "display_name": "Social"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "326471666630656002",
+            "username": "microscopicman",
+            "display_name": "Joseph"
+          },
+          {
+            "id": "409149245711581204",
+            "username": "drkndboo",
+            "display_name": "❥❥dr̶kn̶d!!ᵇᵒᵒ"
+          },
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          },
+          {
+            "id": "414781206786342912",
+            "username": "leo2360",
+            "display_name": "Leo"
+          },
+          {
+            "id": "424678116514988053",
+            "username": "gigagrungo",
+            "display_name": "GigaGrungo"
+          },
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          },
+          {
+            "id": "460854605752958986",
+            "username": "cornicopia",
+            "display_name": "cornicopia"
+          },
+          {
+            "id": "497858508969082911",
+            "username": "theicecreamblacksmith",
+            "display_name": "Votre Mère"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do you eat a taco?",
+    "answers": [
+      {
+        "answer": "Turn your head to be in line with the taco",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "189483157894987776",
+            "username": "sirchuckofthechuckles",
+            "display_name": "SirChuckOfTheChuckles"
+          },
+          {
+            "id": "224562633825583105",
+            "username": "mydoot",
+            "display_name": "my doot"
+          },
+          {
+            "id": "257695355695529984",
+            "username": "thebrandons",
+            "display_name": "thebrandons"
+          },
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          },
+          {
+            "id": "311305936742645763",
+            "username": "paledusk",
+            "display_name": "Social"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "326471666630656002",
+            "username": "microscopicman",
+            "display_name": "Joseph"
+          },
+          {
+            "id": "409149245711581204",
+            "username": "drkndboo",
+            "display_name": "❥❥dr̶kn̶d!!ᵇᵒᵒ"
+          },
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          },
+          {
+            "id": "424678116514988053",
+            "username": "gigagrungo",
+            "display_name": "GigaGrungo"
+          },
+          {
+            "id": "451932020667318274",
+            "username": "griz_003",
+            "display_name": "GriZ"
+          },
+          {
+            "id": "460854605752958986",
+            "username": "cornicopia",
+            "display_name": "cornicopia"
+          },
+          {
+            "id": "512091726056259584",
+            "username": "mushroombark",
+            "display_name": "evie!!"
+          }
+        ]
+      },
+      {
+        "answer": "Turn your taco to be in line with your head",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Is all art political?",
+    "answers": [
+      {
+        "answer": "Yes",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "224562633825583105",
+            "username": "mydoot",
+            "display_name": "my doot"
+          },
+          {
+            "id": "257695355695529984",
+            "username": "thebrandons",
+            "display_name": "thebrandons"
+          },
+          {
+            "id": "266705722408960000",
+            "username": "jo3lth3mol3",
+            "display_name": "Jo3lth3Mol3"
+          }
+        ]
+      },
+      {
+        "answer": "No",
+        "vote_count": 0,
+        "voters": [
+          {
+            "id": "189483157894987776",
+            "username": "sirchuckofthechuckles",
+            "display_name": "SirChuckOfTheChuckles"
+          },
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          },
+          {
+            "id": "311305936742645763",
+            "username": "paledusk",
+            "display_name": "Social"
+          },
+          {
+            "id": "321290301169991681",
+            "username": "eonnis",
+            "display_name": "Eon"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
+          },
+          {
+            "id": "326471666630656002",
+            "username": "microscopicman",
+            "display_name": "Joseph"
+          },
+          {
+            "id": "409149245711581204",
+            "username": "drkndboo",
+            "display_name": "❥❥dr̶kn̶d!!ᵇᵒᵒ"
+          },
+          {
+            "id": "414160806377160704",
+            "username": "jeff123pokemon",
+            "display_name": "jeff123pokemon"
+          },
+          {
+            "id": "424678116514988053",
+            "username": "gigagrungo",
+            "display_name": "GigaGrungo"
+          },
+          {
+            "id": "426912229418467339",
+            "username": "nadpnw",
+            "display_name": "nadpnw"
+          },
+          {
+            "id": "460854605752958986",
+            "username": "cornicopia",
+            "display_name": "cornicopia"
+          },
+          {
+            "id": "497858508969082911",
+            "username": "theicecreamblacksmith",
+            "display_name": "Votre Mère"
+          },
+          {
+            "id": "512091726056259584",
+            "username": "mushroombark",
+            "display_name": "evie!!"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "question": "Which arc was better?",
     "answers": [
       {
@@ -7,9 +974,24 @@
         "vote_count": 0,
         "voters": [
           {
+            "id": "257695355695529984",
+            "username": "thebrandons",
+            "display_name": "thebrandons"
+          },
+          {
             "id": "266705722408960000",
             "username": "jo3lth3mol3",
             "display_name": "Jo3lth3Mol3"
+          },
+          {
+            "id": "273128060675555329",
+            "username": "madamada1660",
+            "display_name": "MadaMada"
+          },
+          {
+            "id": "326465432389287946",
+            "username": "zombielovertrio",
+            "display_name": "zombielovertrio"
           },
           {
             "id": "409149245711581204",
@@ -38,6 +1020,11 @@
         "vote_count": 0,
         "voters": [
           {
+            "id": "311305936742645763",
+            "username": "paledusk",
+            "display_name": "Social"
+          },
+          {
             "id": "414160806377160704",
             "username": "jeff123pokemon",
             "display_name": "jeff123pokemon"
@@ -64,6 +1051,11 @@
             "display_name": "my doot"
           },
           {
+            "id": "257695355695529984",
+            "username": "thebrandons",
+            "display_name": "thebrandons"
+          },
+          {
             "id": "266705722408960000",
             "username": "jo3lth3mol3",
             "display_name": "Jo3lth3Mol3"
@@ -72,6 +1064,11 @@
             "id": "273128060675555329",
             "username": "madamada1660",
             "display_name": "MadaMada"
+          },
+          {
+            "id": "311305936742645763",
+            "username": "paledusk",
+            "display_name": "Social"
           },
           {
             "id": "321290301169991681",
@@ -150,6 +1147,11 @@
             "display_name": "SirChuckOfTheChuckles"
           },
           {
+            "id": "257695355695529984",
+            "username": "thebrandons",
+            "display_name": "thebrandons"
+          },
+          {
             "id": "326471666630656002",
             "username": "microscopicman",
             "display_name": "Joseph"
@@ -170,6 +1172,11 @@
         "answer": "Zoner",
         "vote_count": 0,
         "voters": [
+          {
+            "id": "311305936742645763",
+            "username": "paledusk",
+            "display_name": "Social"
+          },
           {
             "id": "512091726056259584",
             "username": "mushroombark",
@@ -232,6 +1239,11 @@
         "answer": "Yes",
         "vote_count": 0,
         "voters": [
+          {
+            "id": "257695355695529984",
+            "username": "thebrandons",
+            "display_name": "thebrandons"
+          },
           {
             "id": "326465432389287946",
             "username": "zombielovertrio",
